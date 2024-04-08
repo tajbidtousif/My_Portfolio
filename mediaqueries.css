@@ -208,3 +208,83 @@
   }
 }
 
+@media screen and (max-width: 428px) { /* Adjusted for iPhone 13 width */
+  .section__pic-container {
+    width: 100%; /* Adjust the width to fill the entire screen */
+    height: auto; /* Let the height adjust automatically */
+    margin: 0 auto 2rem; /* Center the picture horizontally with some bottom margin */
+  }
+  .text-container {
+    text-align: justify; /* Justify the text for better readability */
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  /* Adjustments for 15-inch laptops */
+  /* You can fine-tune these values based on your design and preferences */
+  #hero h1 {
+    font-size: 48px; /* Decrease font size for the hero title */
+  }
+  #hero p {
+    font-size: 18px; /* Decrease font size for the hero subtitle */
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  /* Adjustments for 13-inch laptops */
+  /* You can fine-tune these values based on your design and preferences */
+  #hero h1 {
+    font-size: 40px; /* Decrease font size for the hero title */
+  }
+  #hero p {
+    font-size: 16px; /* Decrease font size for the hero subtitle */
+  }
+}
+
+/* Common adjustments for both 13 and 15-inch laptops */
+/* You can adjust these values based on your design and preferences */
+#hero {
+  padding-left: 20px; /* Adjust padding for smaller screens */
+  background-image: url("path/to/mobile/image.jpg"); /* Specify the path to the mobile image */
+  background-size: cover; /* Ensure the background image covers the entire section */
+  background-position: top; /* Position the background image at the top */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  position: relative; /* Position the content relative to the hero section */
+}
+
+/* Circular picture styles */
+#circular-pic-container {
+  width: 100px; /* Adjust the width of the circular picture */
+  height: 100px; /* Adjust the height of the circular picture */
+  border-radius: 50%; /* Make it circular */
+  background: url("path/to/mobile/image.jpg") center center no-repeat; /* Specify the path to the circular image */
+  background-size: cover; /* Ensure the circular image covers the entire container */
+  position: absolute; /* Position the circular picture absolutely */
+  top: 20px; /* Adjust the distance from the top */
+  left: 50%; /* Position it horizontally in the center */
+  transform: translateX(-50%); /* Center horizontally */
+  z-index: 1; /* Ensure it appears behind other content */
+}
+
+/* Adjust font sizes and margins for smaller screens */
+#hero h1 {
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 140px; /* Add margin to create space between the image and text */
+}
+
+#hero p {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#hero .social-links {
+  margin-top: 20px;
+  position: relative; /* Position the links relative to the hero section */
+  z-index: 1; /* Ensure they appear above the circular picture */
+}
+
+#hero .social-links a {
+  font-size: 20px;
+  margin-right: 15px;
+}
