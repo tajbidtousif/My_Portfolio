@@ -119,57 +119,47 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  .project-container {
+    padding: 20px; /* Add padding for smaller screens */
+  }
+  
+  .project-showcase {
+    display: flex;
+    flex-direction: column; /* Change flex direction to column for smaller screens */
+    align-items: center;
+  }
+  
   .card {
-    width: calc(50% - 40px);
+    width: calc(100% - 20px); 
+    margin: 10px; 
+    height: 490px ;
   }
-
-  /* Hide social links */
-  .social-links {
-    display: none;
+  
+  .card img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
   }
-
-  /* Position the circular portfolio picture at the top */
-  .circular-portfolio-pic {
+  
+  .card button {
+    width: 50%; 
+    bottom:35px; 
+  }
+  
+  .containerr {
+    padding: 10px; 
+    max-height: none; 
+    overflow-y: visible; 
+  }
+  .githubicon {
     position: absolute;
-    top: 1px; 
+    bottom: 3px;
     left: 50%;
     transform: translateX(-50%);
-    width: 140px; 
-    height: 150px; 
-    border-radius: 50%;
-    background-image: url('/assets/img/tousif.png'); 
-    background-size: cover;
-    z-index: 1; 
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
   }
-
-  /* Adjust the size of the name */
-  #hero h1 {
-    text-align: center;
-    font-size: 24px; /* Adjust the font size as needed */
-    margin-top: 220px; /* Adjust the margin-top to create space for the picture */
-  }
-
-  /* Ensure links are visible */
-  .social-links-mobile {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px; /* Adjust the margin-top as needed */
-  }
-
-  .social-links-mobile a {
-    margin: 0 10px; /* Adjust the spacing between links */
-    font-size: 20px; /* Adjust the font size of links */
-    color: #000; /* Set the color of links */
-  }
-  .card button {
-    font-size: 16px; /* Decrease font size for smaller screens */
-  }
-
-  .githubicon {
-    width: 16px; /* Decrease icon size for smaller screens */
-    height: 16px;
-  }
-
 }
 
