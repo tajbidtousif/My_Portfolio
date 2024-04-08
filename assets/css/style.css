@@ -1574,15 +1574,16 @@ article.icon {
 .card button {
   border: none;
   outline: 0;
+  border-radius: 50px;
   padding: 12px;
   color: white;
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+  width: 50%;
+  font-size: 14px;
   position: absolute;
-  bottom: 10px; /* Adjust as needed */
+  bottom: 35px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -1605,7 +1606,7 @@ article.icon {
 
 .card {
   position: relative;
-  height: 480px; /* Fixed height for all cards */
+  height: 440px; /* Fixed height for all cards */
   width: 300px; /* Fixed width for all cards */
   margin: 20px;
   border: 1px solid #ddd;
@@ -1631,7 +1632,7 @@ article.icon {
 
 .githubicon {
   position: absolute;
-  bottom: 10px;
+  bottom: 3px;
   left: 50%;
   transform: translateX(-50%);
   width: 20px;
