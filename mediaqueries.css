@@ -212,31 +212,9 @@
   /* Adjustments for 15-inch laptops */
   /* You can fine-tune these values based on your design and preferences */
   #hero {
-    
+    background-image: url("path/to/image_for_15_inch_laptops.jpg"); /* Specify the path to the image for 15-inch laptops */
     background-size: cover; /* Ensure the background image covers the entire section */
     background-position: center top; /* Center the background image horizontally */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
-  }
-  #hero .circular-portfolio-pic {
-    width: 100px; /* Adjust the width of the circular picture for 1440px */
-    height: 100px; /* Adjust the height of the circular picture for 1440px */
-    top: 40px; /* Adjust the distance from the top for 1440px */
-    background: url("/assets/img/heropic.jpg") center center no-repeat; /* Specify the path to the circular image */
-  }
-}
-
-@media screen and (max-width: 1920px) {
-  /* Adjustments for 13-inch laptops */
-  /* You can fine-tune these values based on your design and preferences */
-  #hero {
-    background-size: cover; /* Ensure the background image covers the entire section */
-    background-position: center top; /* Center the background image horizontally */
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
-  }
-  #hero .circular-portfolio-pic {
-    width: 120px; /* Adjust the width of the circular picture for 1920px */
-    background: url("/assets/img/heropic.jpg") center center no-repeat; /* Specify the path to the circular image */
-    height: 120px; /* Adjust the height of the circular picture for 1920px */
-    top: 50px; /* Adjust the distance from the top for 1920px */
   }
 }
