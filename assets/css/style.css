@@ -285,7 +285,7 @@ h6 {
   width: 300px; /* Adjust size as needed */
   height: 300px; /* Adjust size as needed */
   border-radius: 50%; /* Make it circular */
-  background: url("/assets/img/tousif.png") center center no-repeat; /* Replace "path/to/your/image.jpg" with the path to your image */
+  background: url("/assets/img/heropic.jpg") center center no-repeat; /* Replace "path/to/your/image.jpg" with the path to your image */
   background-size: cover;
   position: fixed;
   top: 50%;

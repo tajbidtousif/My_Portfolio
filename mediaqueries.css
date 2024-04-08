@@ -162,8 +162,8 @@
     transition: transform 0.3s ease;
   }
   #hero {
-    padding-left: 20px; /* Adjust padding for smaller screens */
-    background-image: url("path/to/mobile/image.jpg"); /* Specify the path to the mobile image */
+    padding-left: 10px; /* Adjust padding for smaller screens */
+    background-image: url(""); /* Specify the path to the mobile image */
     background-size: cover; /* Ensure the background image covers the entire section */
     background-position: top; /* Position the background image at the top */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
@@ -172,13 +172,13 @@
 
   /* Circular picture styles */
   #hero .circular-portfolio-pic {
-    width: 100px; /* Adjust the width of the circular picture */
-    height: 100px; /* Adjust the height of the circular picture */
+    width: 150px; /* Adjust the width of the circular picture */
+    height: 160px; /* Adjust the height of the circular picture */
     border-radius: 50%; /* Make it circular */
-    background: url("/assets/img/tousif.png") center center no-repeat; /* Specify the path to the circular image */
+    background: url("/assets/img/heropic.jpg") center center no-repeat; /* Specify the path to the circular image */
     background-size: cover; /* Ensure the circular image covers the entire container */
     position: absolute; /* Position the circular picture absolutely */
-    top: 20px; /* Adjust the distance from the top */
+    top: -50px; /* Adjust the distance from the top */
     left: 50%; /* Position it horizontally in the center */
     transform: translateX(-50%); /* Center horizontally */
     z-index: 1; /* Ensure it appears behind other content */
