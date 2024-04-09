@@ -982,6 +982,11 @@ article.icon {
 }
 
 .see-more-link:hover {
-  transform: scale(1.1); /* Add hover animation */
+  transform: scale(1.1); 
   color: gray;
+}
+
+.blog-separator {
+  margin-top: 20px;
+  border: 1px solid #949494; 
 }
