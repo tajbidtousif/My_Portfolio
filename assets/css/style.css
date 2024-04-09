@@ -935,7 +935,7 @@ article.icon {
   margin: auto;
   display: flex; /* Use flexbox */
   flex-direction: column; /* Make the children stack vertically */
-  height: 400px; /* Set the height */
+   /* Set the height */
   margin-bottom: 20px;
 }
 
