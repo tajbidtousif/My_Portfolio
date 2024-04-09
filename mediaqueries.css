@@ -217,17 +217,25 @@
     margin-bottom: 20px;
     position: relative; /* Position the links relative to the hero section */
     z-index: 1; /* Ensure they appear above the circular picture */
-    left: 40%;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
   }
   
   #hero .social-links a {
-    font-size: 20px;
-    margin-right: 15px;
+    font-size: 24px;
+    display: inline-block;
+    color: #45505b;
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.3s;
   }
+
   .resume-btn {
+    position: absolute; /* Position the button absolutely within its container */
+    font-size: 15px;
     left: 50%; /* Center the button horizontally */
-    transform: translateX(-50%);
-    top: auto; 
+    transform: translateX(-50%); /* Adjust horizontal positioning */
+    top: 300px; /* Adjust vertical positioning */
   }
 }
 
