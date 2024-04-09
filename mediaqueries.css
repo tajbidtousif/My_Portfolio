@@ -269,3 +269,25 @@
     background-repeat: no-repeat; /* Prevent the background image from repeating */
   }
 }
+
+@media screen and (max-width: 375px) { /* Adjust as needed for iPhone 7 */
+  /* Styles for smaller screens like iPhone 7 */
+  .about-details-container {
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .section__pic-container {
+    width: 120px; /* Adjust size of the image container */
+    height: 120px;
+  }
+  
+  .about-content {
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 1rem; /* Adjust spacing between elements */
+  }
+  
+  .text-container {
+    text-align: center; /* Center text */
+  }
+}
