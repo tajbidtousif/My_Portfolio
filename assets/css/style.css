@@ -924,7 +924,8 @@ article.icon {
 }
 
 
-/* Portfolio Card CSS */
+/* Blog Page CSS */
+
 .portfolio-card {
   background-color: white;
   color: #444;
@@ -966,4 +967,19 @@ article.icon {
   height: 300px; /* Set a fixed height for the images */
   object-fit: cover; /* Ensure the image covers the entire space */
   margin-bottom: 10px;
+}
+
+.see-more-link {
+  position: absolute;
+  
+  right: 50px; 
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease; 
+}
+
+.see-more-link:hover {
+  transform: scale(1.1); /* Add hover animation */
+  color: gray;
 }
