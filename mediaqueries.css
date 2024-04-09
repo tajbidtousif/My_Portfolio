@@ -3,8 +3,47 @@
     height: 83vh;
     margin-bottom: 6rem;
   }
-  .about-container {
-    flex-wrap: wrap;
+
+  /* Center the about and project showcase sections horizontally */
+  .about-container,
+  .project-showcase {
+    display: flex;
+    justify-content: center;
+    gap: 4rem; /* Adjust the gap between the sections */
+  }
+
+  .about-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section__pic-container {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 2rem; /* Center the container horizontally */
+    
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: row; /* Display image and text in a row */
+    justify-content: center; /* Center the content horizontally */
+    gap: 2rem; /* Add some space between the image and text */
+    align-items: flex-start; /* Align items at the start */
+    margin-bottom: 2rem; /* Add margin between image/text and boxes */
+  }
+  #hero .circular-portfolio-pic {
+    width: 270px; 
+    height: 270px; 
+    border-radius: 50%; 
+    background: url("/assets/img/heropic.jpg") center center no-repeat; 
+    background-size: cover; 
+    position: absolute; 
+    top: -60px; 
+    left: 67%; 
+    transform: translateX(-50%); 
+    z-index: 1;
   }
 }
 
@@ -53,6 +92,18 @@
     text-align: center; /* Center the content within each box */
     width: 80%; /* Adjust the width to fit the content better */
     max-width: 600px; /* Limit the maximum width of each box */
+  }
+  #hero .circular-portfolio-pic {
+    width: 270px; 
+    height: 270px; 
+    border-radius: 50%; 
+    background: url("/assets/img/heropic.jpg") center center no-repeat; 
+    background-size: cover; 
+    position: absolute; 
+    top: -60px; 
+    left: 80%; 
+    transform: translateX(-50%); 
+    z-index: 1;
   }
 }
 
