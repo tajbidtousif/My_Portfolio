@@ -14,19 +14,21 @@ This repository contains the source code for my portfolio website.
 
 ## About
 
-This portfolio website showcases the professional profile of Shah Tajbid Tousif, a software developer and machine learning enthusiast. It includes sections such as About, Project Showcase, Ongoing Research, Blogs, and Contact.
+The Developer Showcase website is meticulously crafted to present Shah Tajbid Tousif's skills, projects, research, and blog articles in a visually appealing and user-friendly manner. This website aims to provide visitors with insights into Shah Tajbid Tousif's expertise and accomplishments in the field of technology.
 
 ## Features
 
-- Responsive design for various screen sizes.
-- Navigation menu for easy access to different sections.
-- Social media links for connecting with Shah Tajbid Tousif.
-- Project showcase with descriptions and links to view projects.
-- Ongoing research section with details about current research endeavors.
-- Blogs section featuring articles authored by Shah Tajbid Tousif.
-- Contact section with location and email information.
+- **Responsive Design**: The website is optimized for various screen sizes, ensuring an optimal viewing experience on desktops, tablets, and mobile devices.
+- **Navigation Menu**: An intuitive navigation menu allows users to easily explore different sections of the website, including About, Projects, Research, Blogs, and Contact.
+- **Social Media Integration**: Social media links are provided for connecting with Shah Tajbid Tousif on platforms such as Facebook, GitHub, and LinkedIn.
+- **Project Showcase**: A dedicated section showcases Shah Tajbid Tousif's projects, complete with descriptions and links for further exploration.
+- **Ongoing Research**: Visitors can learn about Shah Tajbid Tousif's ongoing research endeavors, providing insights into his contributions to the field of machine learning.
+- **Blogs**: Engaging blog articles authored by Shah Tajbid Tousif offer valuable insights into various topics related to technology and programming.
+- **Contact Information**: Contact details, including location and email address, are provided for visitors to reach out with inquiries or collaboration opportunities.
 
 ## Technologies Used
+
+The Developer Showcase website is built using the following technologies:
 
 - HTML5
 - CSS3
@@ -38,8 +40,11 @@ This portfolio website showcases the professional profile of Shah Tajbid Tousif,
 
 ## Installation
 
-1. Clone the repository:
+To set up the Developer Showcase website locally, follow these steps:
 
-```bash
-git clone https://github.com/tajbidtousif/your-portfolio-repo.git
+Clone the repository: https://github.com/tajbidtousif/developer-showcase-website.git
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
