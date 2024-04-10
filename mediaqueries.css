@@ -120,6 +120,12 @@
     text-align: center;
   }
 
+  .section__pic-container{
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+
   .section__text__p2{
     font-size: 1.25rem;
   }
