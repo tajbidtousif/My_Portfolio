@@ -10,7 +10,7 @@ I am a passionate software developer and machine learning enthusiast, with a Bac
 
 My portfolio website is built using the following technologies:
 
-- HTML5
+- HTML5 
 - CSS3
 - JavaScript
 - Bootstrap
