@@ -10,6 +10,7 @@ body {
   color: #272829;
 }
 
+
 a {
   color: #0563bb;
   text-decoration: none;
@@ -276,16 +277,16 @@ h6 {
 }
 /* Circular picture for portfolio */
 .circular-portfolio-pic {
-  width: 300px; /* Adjust size as needed */
-  height: 300px; /* Adjust size as needed */
-  border-radius: 50%; /* Make it circular */
-  background: url("/assets/img/heropic.jpg") center center no-repeat; /* Replace "path/to/your/image.jpg" with the path to your image */
+  width: 300px; 
+  height: 300px; 
+  border-radius: 50%; 
+  background: url("/assets/img/heropic.jpg") center center no-repeat; 
   background-size: cover;
   position: fixed;
   top: 50%;
-  right: 20px; /* Adjust the distance from the right side */
+  right: 20px; 
   transform: translateY(-50%);
-  z-index: 999; /* Ensure it appears on top of other content */
+  z-index: 999; 
 }
 @media (min-width: 992px) {
   #hero {
@@ -362,7 +363,7 @@ h6 {
     line-height: 1;
     margin-right: 20px;
     transition: 0.3s;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none; 
   }
   
   .download:hover {
@@ -371,9 +372,9 @@ h6 {
 }
 
 .resume-btn {
-  position: absolute; /* Position the button absolutely within its container */
+  position: absolute; 
   font-size: 15px;
-  left: 8px; /* Adjust horizontal positioning */
+  left: 8px; 
   top: 180px;
 }
 
@@ -467,7 +468,7 @@ section {
 
 
 #footer .social-links {
-  margin-bottom: 20px; /* Adjust margin as needed */
+  margin-bottom: 20px; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -848,8 +849,8 @@ article.icon {
 
 .card img {
   width: 100%;
-  height: 200px; /* Adjust the height as needed */
-  object-fit: cover; /* Ensures the image covers the entire container */
+  height: 200px; 
+  object-fit: cover; 
 }
 
 .card button {
@@ -874,8 +875,8 @@ article.icon {
 }
 
 .description {
-  font-size: 14px; /* Adjust this value as needed */
-  color: #888; /* Optional: Adjust the color */
+  font-size: 14px; 
+  color: #888; 
 } 
 
 .project-showcase {
@@ -887,22 +888,22 @@ article.icon {
 
 .card {
   position: relative;
-  height: 440px; /* Fixed height for all cards */
-  width: 300px; /* Fixed width for all cards */
+  height: 440px; 
+  width: 300px; 
   margin: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
   overflow: hidden;
   display: flex;
-  flex-direction: column; /* Change flex direction to column */
+  flex-direction: column; 
 }
 
 
 .containerr {
   padding: 20px;
   position: relative;
-  height: calc(100% - 110px); /* Adjust as needed */
-  overflow-y: auto; /* Enable vertical scrolling */
+  height: calc(100% - 110px); 
+  overflow-y: auto; 
 }
 
 .project-container {
@@ -922,7 +923,7 @@ article.icon {
 }
 
 .githubicon:hover {
-  transform: translateX(-50%) scale(1.5); /* Adjust scale factor as needed */
+  transform: translateX(-50%) scale(1.5); 
 }
 
 
@@ -936,9 +937,8 @@ article.icon {
   padding: 20px;
   max-width: 900px;
   margin: auto;
-  display: flex; /* Use flexbox */
-  flex-direction: column; /* Make the children stack vertically */
-   /* Set the height */
+  display: flex; 
+  flex-direction: column; 
   margin-bottom: 20px;
 }
 
@@ -967,8 +967,8 @@ article.icon {
 /* Image style */
 .portfolio-card img {
   width: 100%;
-  height: 300px; /* Set a fixed height for the images */
-  object-fit: cover; /* Ensure the image covers the entire space */
+  height: 300px;
+  object-fit: cover; 
   margin-bottom: 10px;
 }
 
@@ -989,4 +989,22 @@ article.icon {
 .blog-separator {
   margin-top: 20px;
   border: 1px solid #949494; 
+}
+
+/*DARK MODE CSS HERE*/
+
+body.dark-mode {
+  background-color: #4b4444;
+  color: #090101;
+}
+
+body.dark-mode .card {
+  background-color: #222;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  /* Add other styles for dark mode */
+}
+
+body.dark-mode .section-title {
+  color: #fff;
 }

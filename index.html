@@ -48,6 +48,7 @@
         <li><a href="#blogs" class="nav-link scrollto"><i class="bi bi-pencil-square"></i><span>Blogs</span></a></li>
         <li><a href="#" class="nav-link scrollto" onclick="window.open('/resume/resume.pdf')" target="_blank"><i class="bi bi-download"></i><span>résumé</span></a></li>
         <li><a href="#" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        <li><a href="#" class="nav-link" id="darkModeToggle"><i class="bx bx-moon"></i> <span>Dark Mode</span></a></li>
       
     </nav><!-- .nav-menu -->
 
@@ -329,10 +330,6 @@
       &copy; Copyright <strong><span>Year</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
-      <!-- All the links in the footer should remain intact. -->
-      <!-- You can delete the links only if you purchased the pro version. -->
-      <!-- Licensing information: [license-url] -->
-      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
       Designed by <a href="https://www.linkedin.com/in/tajbidtousif">Shah Tajbid Tousif</a>
     </div>
   </div>
@@ -372,6 +369,26 @@
 <script src="path/to/aos.js"></script>
 <script>
   AOS.init(); // Initialize AOS
+
+
+  function toggleDarkMode() {
+    const body = document.body;
+    body.classList.toggle('dark-mode');
+    
+    // Save the user's preference in localStorage
+    const isDarkMode = body.classList.contains('dark-mode');
+    localStorage.setItem('darkMode', isDarkMode);
+  }
+  
+  // Checking for user's preference in localStorage
+  const isDarkMode = JSON.parse(localStorage.getItem('darkMode'));
+  if (isDarkMode) {
+    document.body.classList.add('dark-mode');
+  }
+  
+  // Event listener for dark mode toggle button
+  const darkModeToggle = document.getElementById('darkModeToggle');
+  darkModeToggle.addEventListener('click', toggleDarkMode);
 </script>
 
 </html>

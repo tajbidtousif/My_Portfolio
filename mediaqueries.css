@@ -90,10 +90,10 @@
   }
 
   .details-container {
-    width: 100%; /* Full width for smaller screens */
+    width: 100%; 
   }
   .details-container h3 {
-    margin-top: 1.5rem; /* Increase space between sections */
+    margin-top: 1.5rem; 
   }
 
   .about-containers,
@@ -139,12 +139,12 @@
 
 @media screen and (max-width: 768px) {
   .project-container {
-    padding: 20px; /* Add padding for smaller screens */
+    padding: 20px; 
   }
   
   .project-showcase {
     display: flex;
-    flex-direction: column; /* Change flex direction to column for smaller screens */
+    flex-direction: column; 
     align-items: center;
   }
   
@@ -180,33 +180,33 @@
     transition: transform 0.3s ease;
   }
   #hero {
-    padding-left: 10px; /* Adjust padding for smaller screens */
-    background-image: url("path/to/mobile/image.jpg"); /* Specify the path to the mobile image */
-    background-size: cover; /* Ensure the background image covers the entire section */
-    background-position: top; /* Position the background image at the top */
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
-    position: relative; /* Position the content relative to the hero section */
+    padding-left: 10px; 
+    background-image: url("path/to/mobile/image.jpg"); 
+    background-size: cover; 
+    background-position: top; 
+    background-repeat: no-repeat; 
+    position: relative; 
   }
 
   /* Circular picture styles */
   #hero .circular-portfolio-pic {
-    width: 150px; /* Adjust the width of the circular picture */
-    height: 160px; /* Adjust the height of the circular picture */
-    border-radius: 50%; /* Make it circular */
-    background: url("/assets/img/heropic.jpg") center center no-repeat; /* Specify the path to the circular image */
-    background-size: cover; /* Ensure the circular image covers the entire container */
-    position: absolute; /* Position the circular picture absolutely */
-    top: -60px; /* Adjust the distance from the top */
-    left: 50%; /* Position it horizontally in the center */
-    transform: translateX(-50%); /* Center horizontally */
-    z-index: 1; /* Ensure it appears behind other content */
+    width: 150px; 
+    height: 160px; 
+    border-radius: 50%; 
+    background: url("/assets/img/heropic.jpg") center center no-repeat; 
+    background-size: cover; 
+    position: absolute;
+    top: -60px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 1;
   }
   
-  /* Adjust font sizes and margins for smaller screens */
+
   #hero h1 {
     font-size: 32px;
     line-height: 36px;
-    margin-top: 140px; /* Add margin to create space between the image and text */
+    margin-top: 140px; 
   }
   
   #hero p {
@@ -217,10 +217,10 @@
   #hero .social-links {
     margin-top: 30px;
     margin-bottom: 20px;
-    position: relative; /* Position the links relative to the hero section */
-    z-index: 1; /* Ensure they appear above the circular picture */
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center the items horizontally */
+    position: relative; 
+    z-index: 1; 
+    display: flex;
+    justify-content: center; 
   }
   
   #hero .social-links a {
@@ -233,22 +233,21 @@
   }
 
   .resume-btn {
-    position: absolute; /* Position the button absolutely within its container */
+    position: absolute; 
     font-size: 15px;
-    left: 50%; /* Center the button horizontally */
-    transform: translateX(-50%); /* Adjust horizontal positioning */
-    top: 300px; /* Adjust vertical positioning */
+    left: 50%; 
+    transform: translateX(-50%); 
+    top: 300px; 
   }
 }
 
 @media screen and (max-width: 1440px) {
-  /* Adjustments for 15-inch laptops */
-  /* You can fine-tune these values based on your design and preferences */
+  
   #hero {
     background-image: url("path/to/image_for_15_inch_laptops.jpg"); 
-    background-size: cover; /* Ensure the background image covers the entire section */
-    background-position: center top; /* Center the background image horizontally */
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-size: cover; 
+    background-position: center top; 
+    background-repeat: no-repeat; 
   }
 
 
@@ -257,7 +256,7 @@
 @media screen and (max-width: 375px) { /* Adjust as needed for iPhone 7 */
   /* Styles for smaller screens like iPhone 7 */
   .about-details-container {
-    align-items: center; /* Center items horizontally */
+    align-items: center; 
   }
   
    /* .section__pic-container {
@@ -269,21 +268,21 @@
   .section__pic-container {
     width: auto;
     height: auto;
-    justify-content: center; /* Center the content horizontally */
-    margin: 0 auto; /* Center the container horizontally */
+    justify-content: center; 
+    margin: 0 auto; 
   }
 
   .about-content {
-    flex-direction: column; /* Stack image and text vertically */
-    align-items: center; /* Center items horizontally */
-    gap: 1rem; /* Adjust spacing between elements */
+    flex-direction: column;
+    align-items: center; 
+    gap: 1rem; 
   }
   
   .text-container {
     text-align: center;
   }
   .resume-btn {
-    left: 50%; /* Center the button horizontally */
+    left: 50%; 
     transform: translateX(-50%);
     top: auto; 
   }
