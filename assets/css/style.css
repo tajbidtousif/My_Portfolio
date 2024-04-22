@@ -1015,19 +1015,19 @@ body.dark-mode .section-title {
 }
 
 body.dark-mode .blog-separator {
-  animation: blogSeparatorAnimation 1s ease-in-out forwards; /* Example: Apply animation in dark mode */
+  animation: blogSeparatorAnimation 1s ease-in-out forwards; 
 }
 
 body.dark-mode .portfolio-card {
-  color: #fff; /* Example: Change text color to white in dark mode */
+  color: #fff; 
 }
 
 @keyframes blogSeparatorAnimation {
   from {
-    background-color: #fff; /* Example: Start color of the animation in dark mode */
+    background-color: #fff; 
   }
   to {
-    background-color: #000; /* Example: End color of the animation in dark mode */
+    background-color: #000; 
   }
 }
 
@@ -1042,20 +1042,39 @@ body.dark-mode #footer{
 }
 
 
+body.dark-mode .details-container-edu{
+  background-color: #444;
+}
+
+body.dark-mode .details-container{
+  background-color: #444;
+}
+
+body.dark-mode .portfolio-card{
+  background-color: #444;
+}
+
+body.dark-mode .portfolio-title{
+  background-color: rgb(196, 193, 193);
+}
+
+body.dark-mode .githubicon {
+  filter: invert(1);
+}
 
 body.dark-mode #hero {
-  background-color: #0b0606; /* Example: Change background color to dark gray in dark mode */
+  background-color: #000 !important; /* Set the background color to black */
 }
 
 body.dark-mode #hero h1 {
-  color: #fff; /* Example: Change text color to white in dark mode */
+  color: #fff; /* Set the text color to white */
 }
 
 body.dark-mode #hero .social-links a {
-  color: #fff; /* Example: Change social links color to white in dark mode */
+  color: #fff; /* Set the social links color to white */
 }
 
 body.dark-mode #hero .resume-btn {
-  background-color: #fff; /* Example: Change button background color to white in dark mode */
-  color: #333; /* Example: Change button text color to black in dark mode */
+  background-color: #fff; /* Set the button background color to white */
+  color: #333; /* Set the button text color to dark */
 }
