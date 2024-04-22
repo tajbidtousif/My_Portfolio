@@ -994,17 +994,68 @@ article.icon {
 /*DARK MODE CSS HERE*/
 
 body.dark-mode {
-  background-color: #4b4444;
-  color: #090101;
+  background-color: #222;
+  color: #858282;
+}
+body.light-mdoe {
+  background-color: #fff;
+  color: black;
 }
 
 body.dark-mode .card {
-  background-color: #222;
+  background-color: rgb(66, 64, 64);
   color: #fff;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-  /* Add other styles for dark mode */
+  border-color: #949494;
+  
 }
 
 body.dark-mode .section-title {
-  color: #fff;
+  color: #edebeb;
+}
+
+body.dark-mode .blog-separator {
+  animation: blogSeparatorAnimation 1s ease-in-out forwards; /* Example: Apply animation in dark mode */
+}
+
+body.dark-mode .portfolio-card {
+  color: #fff; /* Example: Change text color to white in dark mode */
+}
+
+@keyframes blogSeparatorAnimation {
+  from {
+    background-color: #fff; /* Example: Start color of the animation in dark mode */
+  }
+  to {
+    background-color: #000; /* Example: End color of the animation in dark mode */
+  }
+}
+
+body.dark-mode .portfolio-card .portfolio-title{
+  color: #444;
+}
+
+
+
+body.dark-mode #footer{
+  background-color: #222;
+}
+
+
+
+body.dark-mode #hero {
+  background-color: #0b0606; /* Example: Change background color to dark gray in dark mode */
+}
+
+body.dark-mode #hero h1 {
+  color: #fff; /* Example: Change text color to white in dark mode */
+}
+
+body.dark-mode #hero .social-links a {
+  color: #fff; /* Example: Change social links color to white in dark mode */
+}
+
+body.dark-mode #hero .resume-btn {
+  background-color: #fff; /* Example: Change button background color to white in dark mode */
+  color: #333; /* Example: Change button text color to black in dark mode */
 }
