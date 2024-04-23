@@ -70,9 +70,6 @@
     transform: translateX(-50%);
     z-index: 1;
   }
-  #hero {
-    background-position: center top;
-  }
 }
 
 @media screen and (max-width: 600px) {
@@ -151,7 +148,11 @@
     align-items: center;
   }
   
-
+  .card {
+    width: calc(100% - 20px); 
+    margin: 10px; 
+    height: 490px ;
+  }
   
   .card img {
     width: 100%; 
@@ -238,11 +239,6 @@
     transform: translateX(-50%); 
     top: 300px; 
   }
-  .card {
-    width: calc(50% - 20px); /* Adjust card width to fit two cards per row */
-    margin: 10px; /* Adjust margin to create spacing between cards */
-    height: auto; /* Allow cards to adjust height based on content */
-  }
 }
 
 @media screen and (max-width: 1440px) {
@@ -295,29 +291,8 @@
     margin-right: 15px;
   }
 }
-@media screen and (max-width: 1600px) {
-  /* Update the background positioning for larger laptops */
-  #hero {
-    background-position: center top;
-  }
-}
 
-@media screen and (max-width: 1024px) {
-  .card {
-    width: calc(50% - 20px); /* Adjust card width to fit two cards per row */
-    margin: 10px; /* Adjust margin to create spacing between cards */
-    height: auto; /* Allow cards to adjust height based on content */
-  }
-  
-}
 
-@media screen and (max-width: 1800px) {
-  /* Adjust the circular portfolio pic for larger screens with 125% scaling */
-  #hero .circular-portfolio-pic {
-    width: 350px;
-    height: 350px;
-  }
-}
 @media screen and (max-width: 1920px) {
   /* Further adjustments for larger screens */
   #hero .circular-portfolio-pic {
