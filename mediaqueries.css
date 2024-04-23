@@ -293,12 +293,3 @@
 }
 
 
-@media screen and (max-width: 1920px) {
-  /* Further adjustments for larger screens */
-  #hero .circular-portfolio-pic {
-    width: 300px;
-    height: 300px;
-    margin-right: 200px;
-  }
-  
-}
