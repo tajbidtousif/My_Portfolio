@@ -1014,7 +1014,9 @@ article.icon {
     transform: scaleX(0);
   }
 }
-
+.portfolio-content span{
+  color: black;
+}
 
 /*--------------------------------------------------------------
 # DARK MODE CSS HERE
@@ -1144,8 +1146,10 @@ body.dark-mode .blog-separator::before {
   }
 }
 
-body.dark-mode .see-more see-more-link{
-
+body.dark-mode .see-more-link{
+    color: white;
 }
 
-
+body.dark-mode .portfolio-content span{
+  color: white;
+}
