@@ -948,7 +948,7 @@ article.icon {
 
 .portfolio-content h3 {
   font-size: 18px;
-  color: #aad;
+  color: rgb(22, 22, 101);
 }
 
 .portfolio-content p {
@@ -986,8 +986,33 @@ article.icon {
 }
 
 .blog-separator {
-  margin-top: 20px;
-  border: 1px solid #949494; 
+  position: relative;
+  width: 100%;
+  height: 3px;
+  background-color: transparent;
+}
+
+.blog-separator::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0f40a1;
+  animation: blogSeparatorAnimation 2s infinite linear;
+}
+
+@keyframes blogSeparatorAnimation {
+  0% {
+    transform: scaleX(0);
+  }
+  50% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(0);
+  }
 }
 
 
@@ -1084,17 +1109,15 @@ body.dark-mode #hero .resume-btn {
 }
 
 @media (prefers-color-scheme: dark) {
-  .portfolio-title strong {
-    color: rgb(181, 180, 180); 
-  }rgb(180, 180, 181)rgb(80, 33, 237)
+  body.dark-mode .portfolio-title strong {
+    color: rgb(238, 234, 234); 
+  }
 }
-
-
 
 body.dark-mode .blog-separator {
   position: relative;
   width: 100%;
-  height: 3px; 
+  height: 5px; 
   background-color: transparent; 
 }
 
@@ -1105,7 +1128,7 @@ body.dark-mode .blog-separator::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #2f02f7;
+  background-color: #2a01e2;
   animation: blogSeparatorAnimation 2s infinite linear; 
 }
 
@@ -1119,4 +1142,8 @@ body.dark-mode .blog-separator::before {
   100% {
     transform: scaleX(0); 
   }
+}
+
+body.dark-mode .see-more see-more-link{
+
 }
