@@ -1000,7 +1000,7 @@ article.icon {
   width: 100%;
   height: 100%;
   background-color: #0f40a1;
-  animation: blogSeparatorAnimation 5s infinite linear;
+  animation: blogSeparatorAnimation 8s infinite linear;
 }
 
 @keyframes blogSeparatorAnimation {
@@ -1117,7 +1117,7 @@ body.dark-mode #hero .resume-btn {
 body.dark-mode .blog-separator {
   position: relative;
   width: 100%;
-  height: 5px; 
+  height: 3px; 
   background-color: transparent; 
 }
 
@@ -1129,7 +1129,7 @@ body.dark-mode .blog-separator::before {
   width: 100%;
   height: 100%;
   background-color: #2a01e2;
-  animation: blogSeparatorAnimation 5s infinite linear; 
+  animation: blogSeparatorAnimation 8s infinite linear; 
 }
 
 @keyframes blogSeparatorAnimation {
