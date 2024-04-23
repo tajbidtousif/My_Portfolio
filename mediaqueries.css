@@ -302,10 +302,3 @@
   }
   
 }
-
-@media screen and (max-width: 1250px) {
-  /* Adjustments for screens around 1250px width */
-  .card {
-    width: calc(33.33% - 20px); /* Adjust card width to fit three cards per row */
-  }
-}
