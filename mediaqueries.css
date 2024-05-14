@@ -20,7 +20,6 @@
   #profile,
   .section-container {
     display: block;
-    
   }
 
   .arrow {
@@ -245,7 +244,7 @@
 @media screen and (max-width: 1440px) {
   
   #hero {
-    background-image: url("/assets/img/heropic.jpg"); 
+    background-image: url("path/to/image_for_15_inch_laptops.jpg"); 
     background-size: cover; 
     background-position: center top; 
     background-repeat: no-repeat; 
@@ -294,9 +293,3 @@
 }
 
 
-@media (max-width: 1600px) {
-  .circular-portfolio-pic {
-    width: 150px; /* Adjust the width for smaller screens */
-    height: 150px; /* Adjust the height for smaller screens */
-  }
-}
